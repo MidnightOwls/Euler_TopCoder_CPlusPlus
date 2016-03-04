@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		637A2DBC1C895D3C0059A234 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 637A2DBB1C895D3C0059A234 /* main.cpp */; };
+		637A2DC61C895E420059A234 /* GozintaChains.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 637A2DC41C895E420059A234 /* GozintaChains.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		637A2DB81C895D3C0059A234 /* Euler_TopCoder_C++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Euler_TopCoder_C++"; sourceTree = BUILT_PRODUCTS_DIR; };
 		637A2DBB1C895D3C0059A234 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		637A2DC41C895E420059A234 /* GozintaChains.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GozintaChains.cpp; path = Euler/GozintaChains.cpp; sourceTree = "<group>"; };
+		637A2DC51C895E420059A234 /* GozintaChains.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = GozintaChains.hpp; path = Euler/GozintaChains.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +60,27 @@
 		637A2DBA1C895D3C0059A234 /* Euler_TopCoder_C++ */ = {
 			isa = PBXGroup;
 			children = (
+				637A2DC31C895E260059A234 /* TopCoder */,
+				637A2DC21C895E200059A234 /* Euler */,
 				637A2DBB1C895D3C0059A234 /* main.cpp */,
 			);
 			path = "Euler_TopCoder_C++";
+			sourceTree = "<group>";
+		};
+		637A2DC21C895E200059A234 /* Euler */ = {
+			isa = PBXGroup;
+			children = (
+				637A2DC41C895E420059A234 /* GozintaChains.cpp */,
+				637A2DC51C895E420059A234 /* GozintaChains.hpp */,
+			);
+			name = Euler;
+			sourceTree = "<group>";
+		};
+		637A2DC31C895E260059A234 /* TopCoder */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = TopCoder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				637A2DC61C895E420059A234 /* GozintaChains.cpp in Sources */,
 				637A2DBC1C895D3C0059A234 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
